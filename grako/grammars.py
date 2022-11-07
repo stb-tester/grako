@@ -14,10 +14,10 @@ from __future__ import (absolute_import, division, print_function,
 
 import sys
 import functools
-from collections import defaultdict, Mapping
+from collections import defaultdict
 from copy import copy
 
-from grako.util import indent, trim, ustr, urepr, strtype, compress_seq
+from grako.util import indent, Mapping, trim, ustr, urepr, strtype, compress_seq
 from grako.util import re, RE_FLAGS
 from grako.exceptions import FailedRef, GrammarError
 from grako.ast import AST
